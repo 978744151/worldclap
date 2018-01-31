@@ -1,0 +1,160 @@
+
+.pg_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.pg_bg>img{
+    width: 100%;
+    height: 100%;
+}
+.login_title{
+    color:#b5d5de;
+    font-size: 14px;
+    padding-top: 15%;
+    text-align: center;
+    letter-spacing: 6px;
+    width: 100%;
+}
+.login_title>p{
+    width: 100%;
+}
+.login_img{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 7%;
+}
+.login_img>img{
+    width: 100%;
+}
+.login_table{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10% 24px;
+}
+.login_table>.regist_input{
+    overflow: hidden;
+}
+.login_table>.regist_input>img{
+    height: 25px;
+    position: absolute;
+    padding-top: -6px;
+}
+.login_table>.regist_input>input{
+    width: 100%;
+    border: none;
+    background: rgba(0,0,0,0);
+    border-bottom: 1px solid #7ebcc8;
+    margin-left: 34px;
+    color: #40c9e3;
+    font-size: 16px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #7ebcc8;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #7ebcc8;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:   #7ebcc8;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #7ebcc8;
+}
+.login_table>.pass_input{
+    overflow: hidden;
+    margin-top: 10%;
+}
+.login_table>.pass_input>img{
+    height: 25px;
+    position: absolute;
+    padding-top: -6px;
+}
+.login_table>.pass_input>input{
+    width: 100%;
+    border: none;
+    background: rgba(0,0,0,0);
+    border-bottom: 1px solid #7ebcc8;
+    margin-left: 34px;
+    color: #40c9e3;
+    font-size: 16px;
+}
+.login_table>.yzm_input{
+    overflow: hidden;
+    margin-top: 5%;
+}
+.yzm_input{
+    position: relative;
+    overflow: hidden;
+    margin-top: 10%;
+    height: 42px;
+}
+.login_table>.yzm_input>img{
+    height: 25px;
+    position: absolute;
+    bottom: 0px;
+}
+.login_table>.yzm_input>input{
+    width: 80%;
+    border: none;
+    background: rgba(0,0,0,0);
+    border-bottom: 1px solid #7ebcc8;
+    margin-left: 34px;
+    color: #40c9e3;
+    font-size: 16px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+}
+.login_table>.yzm_input>.yzm_span{
+    background: url(../images/span_bg_radiu.png);
+    height: 42px;
+    background-size: 100% 100%;
+    width: 93px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: top;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #555458;
+}
+.login_table>a{
+    float: right;
+    color: #f5f5f5;
+    margin-top: 2%;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.pg_content>.pg_bottom{
+    position: absolute;
+    bottom: 10%;
+    /* width: 50%; */
+    text-align: center;
+    padding: 0 24px;
+}
+.pg_content>.pg_bottom>img{
+    width: 100%;
+}
+.yzm_span1{
+    background: url(../images/span_bg_radiu.png);
+    height: 42px;
+    background-size: 100% 100%;
+    width: 93px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px;
+    vertical-align: top;
+    font-size: 14px;
+    position: absolute;
+    /* bottom: 0px; */
+    right: 0px;
+    color: #40c9e3;
+    margin-top: 5%;
+    /* margin: 0 auto; */
+    left: 50%;
+    transform: translateX(-50%);
+}

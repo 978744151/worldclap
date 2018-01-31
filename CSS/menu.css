@@ -1,0 +1,90 @@
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.menu>.nav{
+    height: 44px;
+    background: white;
+    padding: 7px 10px;
+    position:relative;
+}
+.pg_bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background:#1d2127;
+
+}
+.pg_bg img{
+    opacity: 0.12;
+
+    width: 100%;
+    height: 100%;
+}
+.menu>.nav>input{
+    width: 80%;
+    height: 30px;
+    background: #ccc;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 14;
+    color: white;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #ffffff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:   #ffffff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #ffffff;
+}
+.menu>.nav>span{
+    background: url(../images/index_radui.png);
+    height: 30px;
+    width: 55px;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    /* float: right; */
+    line-height: 30px;
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+}
+.menu_banner{
+    height: 110px;
+}
+.menu_banner>img{
+    width: 100%;
+    height: 100%;
+}
+.menu_content{
+
+}
+.menu_content>.menu_c_li{
+    width: 50%;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 14px;
+    border-right: 1px solid #61666e;
+    border-bottom: 1px solid #61666e;
+    padding: 5%;
+}
+.menu_content>.menu_c_li>img{
+    height: 90px;
+}
+.menu_content>.menu_c_li>p{
+    margin-top: 5px;
+}
+.menu_content>.menu_c_li:nth-child(4){
+    border-bottom: 1px solid #61666e;
+}
